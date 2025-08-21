@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import { useState } from "react";
 import "./Navbar.css"
 import MobileNav from "./MobileNav/MobileNav"
 
@@ -14,7 +14,7 @@ const Navbar = () => {
         <>
         <MobileNav isOpen={openMenu} toggleMenu={toggleMenu}/>
 
-        <nav className="nav-wrapper">
+        <nav className="nav-wrapper"> 
             <div className="nav-content">
                 <img className="logo" src="./logo.svg" alt="" />
 
