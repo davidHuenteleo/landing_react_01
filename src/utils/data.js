@@ -38,3 +38,38 @@ export const SKILLS = [
         ],
     },
 ] 
+
+export const WORK_EXPERIENCE = [
+
+    {
+        title: "Senior Frontend Developer at Tech Innovators",
+        date: "January 2025 - Present",
+        responsibilities: [
+            "Developing user-friendly web applications using React.js",
+            "Collaborating with designers and backend developers",
+            "Optimizing applications for maximum speed and scalability",
+        ],
+    },
+
+    {
+        title: "Senior Frontend Developer at Tech Innovators",
+        date: "January 2025 - Present",
+        responsibilities: [
+            "Developing user-friendly web applications using React.js",
+            "Collaborating with designers and backend developers",
+            "Optimizing applications for maximum speed and scalability",
+        ],
+    },
+
+
+    {
+        title: "Senior Frontend Developer at Tech Innovators",
+        date: "January 2025 - Present",
+        responsibilities: [
+            "Developing user-friendly web applications using React.js",
+            "Collaborating with designers and backend developers",
+            "Optimizing applications for maximum speed and scalability",
+        ],
+    }
+
+]
