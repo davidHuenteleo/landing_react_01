@@ -19,12 +19,12 @@ const Navbar = () => {
                 <img className="logo" src="./logo.svg" alt="" />
 
                 <ul>
-                    <li>
+                    <li> 
                         <a className="menu-item">Home</a>
                     </li>
 
                     <li>
-                        <a className="menu-item">Skills</a>
+                        <a  className="menu-item">Skills</a>
                     </li> 
 
                     <li>
@@ -32,7 +32,7 @@ const Navbar = () => {
                     </li> 
 
                     <li>
-                        <a className="menu-item">Contact Me</a>
+                        <a href="#ContactMe" className="menu-item">Contact Me</a>
                     </li> 
                     
 

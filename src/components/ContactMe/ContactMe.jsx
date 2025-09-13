@@ -6,7 +6,7 @@ import ContactForm from '../ContactForm/ContactForm.jsx';
 const ContactMe = () => {
     return (
         
-        <section className="contact-container">
+        <section id="ContactMe" className="contact-container">
             <h5>Contact Me</h5>
 
             <div className="contact-content">

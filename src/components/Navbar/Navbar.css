@@ -1,3 +1,10 @@
+/* para agregar un desplazamiento suave  */
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* propiedades de NavBar */
 .nav-wrapper{
     background-color: rgb(0, 155, 114);
     padding: 0.5rem 0;

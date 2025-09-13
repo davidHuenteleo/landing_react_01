@@ -4,7 +4,7 @@ import "./ContactForm.css";
 const ContactForm = () => {
 
     return(
-        <div className="contact-form-content">
+        <div className="contact-form-content" id="Contact">
             <form>
                 <div className="name-container">
                     <input type="text" name="firstname" placeholder="First Name" />

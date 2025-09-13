@@ -12,7 +12,7 @@ const WorkExperience = () => {
         dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 1,
+        slidesToShow: 2,
         slidesToScroll: 1,
         arrows: false,
         responsive: [
@@ -49,13 +49,13 @@ const WorkExperience = () => {
 
                     <div className="arrow-right" onClick={slideRight}>
                         <span className="material-symbols-outline">
-                            right
+                            O
                         </span>
                     </div>
 
                     <div className="arrow-left" onClick={slideLeft}>
                         <span className="material-symbols-outlined">
-                            left
+                            O
                         </span>
                     </div>
 
