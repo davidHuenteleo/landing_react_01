@@ -2,7 +2,6 @@ import "./Hero.css";
 
 const Hero = () => {
     return(
-        
         <section className="hero-container">
             <div className="hero-content">
                 <h2>Building Digital Experiences</h2>
@@ -29,9 +28,9 @@ const Hero = () => {
                         <img src="./assets/images/img_header.png" alt="" />
                     </div>
 
-                     <div className="tech-icon">
+                    <div className="tech-icon">
                         <img src="./assets/images/img_header.png" alt="" />
-                      </div>
+                    </div>
                 </div>
 
             </div>

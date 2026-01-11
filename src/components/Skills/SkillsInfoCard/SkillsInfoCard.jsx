@@ -4,7 +4,7 @@ import "./SkillsInfoCard.css";
 const SkillsInfoCard = ({ heading, skills }) => {
     return (
         <div className="skills-info-card">
-        <h6>{heading}</h6> 
+        <h6>{heading}</h6>
 
         <div className="skills-info-content">
 

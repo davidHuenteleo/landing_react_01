@@ -14,46 +14,43 @@ const Navbar = () => {
         <>
         <MobileNav isOpen={openMenu} toggleMenu={toggleMenu}/>
 
-        <nav className="nav-wrapper"> 
+        <nav className="nav-wrapper">
             <div className="nav-content">
                 <img className="logo" src="./logo.svg" alt="" />
 
                 <ul>
-                    <li> 
+                    <li>
                         <a className="menu-item">Home</a>
                     </li>
 
                     <li>
                         <a  className="menu-item">Skills</a>
-                    </li> 
+                    </li>
 
                     <li>
                         <a className="menu-item">Work Experience</a>
-                    </li> 
+                    </li>
 
                     <li>
-                        <a href="#ContactMe" className="menu-item">Contact Me</a>
-                    </li> 
-                    
+                        <a href="#ContactMe" 
+                        className="menu-item">Contact Me</a>
+                    </li>
 
-                   <button className="contact-btn" onClick={() => {}}>
+                    <button className="contact-btn" onClick={() => {}}>
                         Hire Me
-                   </button>
-        
+                    </button>
                 </ul>
 
                 <button className="menu-btn" onClick={toggleMenu}>
                     <span className={"material-symbols-outlined"}
-                          style={{fontSize: "1.8rem"}}>
+                        style={{fontSize: "1.8rem"}}>
 
                         {openMenu ? "close" : "menu"}
 
                     </span>
                 </button>
-                 
             </div>
         </nav>
-        
         </>
     )
 }

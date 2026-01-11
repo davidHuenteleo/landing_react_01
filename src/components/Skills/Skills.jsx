@@ -15,12 +15,10 @@ const Skills = () => {
 
     return(
         <section className="skills-container">
-            
             <h5>Technical Proficiency</h5>
 
             <div className="skills-content">
                 <div className="skills">
-                    
                     {SKILLS.map((item) => (
                         <SkillCard
                             key={item.title}
@@ -33,13 +31,12 @@ const Skills = () => {
                             }}
                             />
                     ))}
-                
                 </div>
 
                 <div className="skills-info">
-                    <SkillsInfoCard 
+                    <SkillsInfoCard
                         heading={selectedSkill.title}
-                        skills={selectedSkill.skills}    
+                        skills={selectedSkill.skills}
                     />
                 </div>
             </div>
